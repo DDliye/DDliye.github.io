@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link href="css/css.css" rel="stylesheet" type="text/css" />
+    <title>liye</title>
+</head>
+<body>
+<div class="home">
+  <div class="content">
+    <div class="stars"></div>
+    <img class="bgc" src="./img/1.jpg" width="100%" alt="">
+    <h3 class="title">欢迎来到我的个人网站</h3>
+    <h3 class="titles">泰裤辣！</h3>
+    <img class="icon" src="./img/1.jpg" alt="">
+
+  </div>
+  <div class="icons">
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/7.jpg" alt="">
+      <span>教学楼是我们每天必去取经之地</span>
+    </div>
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/8.jpg" alt="" style="width: 200px;height: 150px;">
+      <span>每天都要在食堂里面纠结到底吃什么</span>
+    </div>
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/5.jpeg" alt="">
+      <span>每天都看着同学在里面卷</span>
+    </div>
+    <div class="icons_items">
+      <img class="icons_items_imgs" src="./img/6.jpeg" alt="">
+      <span>因为改名学校还没有在新大门上写名字</span>
+    </div>
+  </div>
+  <div class="introduce">
+    <div class="introduce_item">
+      <img class="introduce_item_img" src="./img/zms.png " alt="">
+      <span class="introduce_item_title">詹姆斯是一个伟大的篮球运动员，从小缺少父爱的他，给了孩子最美好的陪伴，对于事业有上进心，极度自律，一直保持良好的身体状态</span>
+
+    </div>
+    <div class="introduce_item">
+
+      <span class="introduce_item_titles">学过JAVA，python，c语言等与专业相关的课程</span>
+      <img class="introduce_item_img" src="./img/img_1.png" alt="">
+    </div>
+    <div class="introduce_item">
+      <img class="introduce_item_img" src="./img/2.jpg" alt="">
+      <span class="introduce_item_title">白日依山尽，黄河入海流。欲穷千里目，更上一层楼。</span>
+    </div>
+    <div class="introduce_item">
+      <span class="introduce_item_titles">篮球是一种让人兴奋的运动，看团体，看个人，大汗淋漓的感觉总是让人满足</span>
+      <img class="introduce_item_img" src="./img/lq.jpg" alt="">
+    </div>
+  </div>
+  <audio autoplay="autoplay" id="audio" loop="loop">
+    <source src="./video/music.mp3" type="audio/MP3">
+
+  </audio>
+<!--  <a class="music_img" src="./img/4.jpg" alt="">-->
+  <a  class="music_img" href="https://www.fjut.edu.cn" target="_blank">
+    <img width="50px" src="./img/img.png"></a>
+</div>
+
+</body>
+<script>
+  let mucics = document.getElementById('audio')
+  document.body.addEventListener('mousemove', function() {
+    setTimeout(() => {
+      mucics.play();
+    }, 2000);
+  }, false);
+</script>
+</html>
